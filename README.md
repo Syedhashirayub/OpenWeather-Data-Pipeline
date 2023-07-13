@@ -12,11 +12,14 @@ The project involves utilizing various tools and technologies to perform data tr
 1. Airflow:
 Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. It allows the user to define complex data pipelines as directed acyclic graphs (DAGs), making it ideal for data orchestration and transformation. In this project, Airflow is used to schedule and monitor the workflow, ensuring that the tasks are executed in the correct order.
 
+![Screenshot 2023-07-06 at 9 31 35 PM](https://github.com/Syedhashirayub/OpenWeather-Data-Pipeline/assets/100124377/759e4b9f-cff3-4d28-b216-5e63f21bf523)
+
+
 2. EC2 instance:
 Amazon Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the cloud. In this project, an EC2 instance is used to create the Airflow server, allowing for the scheduling and monitoring of workflows.
 
 3. Pandas library:
 Pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool. In this project, Pandas is used to process the extracted Openweather data, creating a DataFrame which is then stored in S3 in CSV format.
 
-5. S3:
+4. S3:
 Amazon Simple Storage Service (S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. In this project, S3 is used to store output, allowing for easy access and retrieval.
