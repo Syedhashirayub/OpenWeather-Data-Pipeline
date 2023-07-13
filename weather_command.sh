@@ -8,7 +8,10 @@ sudo pip install s3fs
 sudo pip install apache-airflow      
 airflow standalone               #If facing any error downgrade from pydantic 2.0.2 to 1.10.10
 
-#for getting session token
+This will start your airflow server
+
+For getting a session token-
+
 sudo apt  install awscli
 aws configure
 aws sts get-session-token
